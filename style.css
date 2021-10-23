@@ -15,9 +15,10 @@ body {
   place-items: center;
 }
 main {
-  background: url(images/Mobile.png);
-  width: 375px;
-  height: 812px;
+  background: url(images/background.svg) no-repeat center/cover; /*sem repetir a imagem; centralizado; cobrir toda a área do fundo*/
+  width: 100vw; /* Largura de viewport - preencher a largura toda do dispositivo*/
+  min-height: 812px;
+  height: 100vh; /*altura de viewport - preencher a altura toda do dispositivo */
 }
 
 .conteiner {
